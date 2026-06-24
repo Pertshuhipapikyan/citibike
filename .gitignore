@@ -1,7 +1,10 @@
 data/raw/*.csv
 data/processed/*.csv
 
-
+echo data/citibike/JC/JC2025.csv >> .gitignore
+echo data/citibike/JC/JC2025_Enriched.csv >> .gitignoregit add .gitignore
+git commit -m "Remove large Citibike CSV files from repository"
+git push origin main
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
